@@ -29,6 +29,8 @@ def main():
                 resultado = calc.restar(a, b)
             elif opcion == 3:
                 resultado = calc.multiplicar(a, b)
+            elif opcion == 5: 
+                resultado == calc.resto(a,b)
             else:
                 resultado = calc.dividir(a, b)
 
