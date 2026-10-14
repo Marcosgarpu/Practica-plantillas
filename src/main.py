@@ -8,7 +8,8 @@ def mostrar_menu():
     print("2. Restar")
     print("3. Multiplicar")
     print("4. Dividir")
-    print("5. Salir")
+    print("5. Resto")
+    print("6. Salir")
 
 
 def main():
