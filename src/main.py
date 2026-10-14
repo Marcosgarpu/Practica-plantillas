@@ -7,7 +7,8 @@ def mostrar_menu():
     print("1. Sumar")
     print("2. Restar")
     print("3. Multiplicar")
-    print("4. Salir")
+    print("4. Dividir")
+    print("5. Salir")
 
 
 def main():
@@ -28,8 +29,11 @@ def main():
                 resultado = calc.restar(a, b)
             elif opcion == 3:
                 resultado = calc.multiplicar(a, b)
+            else:
+                resultado = calc.dividir(a, b)
+
             print("Resultado:", resultado)
-        elif opcion != 4:
+        elif opcion != 5:
             print("Opción no válida")
 
     print("Hasta pronto")
