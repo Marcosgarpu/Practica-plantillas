@@ -20,7 +20,7 @@ def main():
         mostrar_menu()
         opcion = int(input("Elige una opción: "))
 
-        if opcion >= 1 and opcion <= 4:
+        if opcion >= 1 and opcion <= 5:
             a = float(input("Primer número: "))
             b = float(input("Segundo número: "))
 
@@ -31,12 +31,12 @@ def main():
             elif opcion == 3:
                 resultado = calc.multiplicar(a, b)
             elif opcion == 5: 
-                resultado == calc.resto(a,b)
+                resultado = calc.resto(a,b)
             else:
                 resultado = calc.dividir(a, b)
 
             print("Resultado:", resultado)
-        elif opcion != 5:
+        elif opcion != 6:
             print("Opción no válida")
 
     print("Hasta pronto")
