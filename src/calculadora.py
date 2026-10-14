@@ -11,3 +11,6 @@ class Calculadora:
 
     def dividir(self, a, b):
         return a / b
+
+    def resto(self, a, b):
+        return a % b
