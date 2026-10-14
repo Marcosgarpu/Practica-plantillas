@@ -20,7 +20,7 @@ def main():
         mostrar_menu()
         opcion = int(input("Elige una opción: "))
 
-        if opcion >= 1 and opcion <= 4:
+        if opcion >= 1 and opcion <= 5:
             a = float(input("Primer número: "))
             b = float(input("Segundo número: "))
 
