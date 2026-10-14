@@ -8,7 +8,8 @@ def mostrar_menu():
     print("2. Restar")
     print("3. Multiplicar")
     print("4. Dividir")
-    print("5. Salir")
+    print("5. Resto")
+    print("6. Salir")
 
 
 def main():
@@ -29,6 +30,8 @@ def main():
                 resultado = calc.restar(a, b)
             elif opcion == 3:
                 resultado = calc.multiplicar(a, b)
+            elif opcion == 5: 
+                resultado == calc.resto(a,b)
             else:
                 resultado = calc.dividir(a, b)
 
